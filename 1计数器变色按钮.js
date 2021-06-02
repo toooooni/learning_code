@@ -1,7 +1,7 @@
 import React from "react";
 
 function CountChecker({ count }){
-  const color = count >10 ? "yellow":"pink";
+  const color = count >10 ? "bule":"pink";
   return <span style ={{color}}>{count}</span>
 }
 export default function Counter(){
