@@ -1,4 +1,4 @@
-//import React form 'react';
+import React from "react";
 
 function Example(){
 const [count,setCount] = React.useState(0)
