@@ -19,6 +19,6 @@ function BlogView({id}){
     },[id])// 使用 id 作为依赖项，变化时则执行副作用
 
     // 如果没有 blogContent 则认为是在 loading 状态
-    const isLoading = !blogContent;
+    const isLoading = !blogContent
     return <div>{isLoading ? "Loading....." :blogContent}</div>
 }
