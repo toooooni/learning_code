@@ -3,3 +3,5 @@ async function testAsync (){
 }
 const result = testAsync();
 console.log(result)
+//Promise {'hello async'}
+
